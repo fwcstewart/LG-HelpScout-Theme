@@ -160,6 +160,7 @@ button:active {
     margin: 4px;
     display: flex;
     width: 45%;
+    height: auto;
 
     &:active,
     &:focus,
