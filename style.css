@@ -157,10 +157,8 @@ button:active {
   &.two-col a.category[id^="category"] {
     background-color: var(--color-lightblue-gradient);
     border-radius: 8px;
-    height: 100px !important; 
     margin: 4px;
-    grid-row: auto;
-    grid-column: auto;
+    display: flex;
     width: 45%;
 
     &:active,
