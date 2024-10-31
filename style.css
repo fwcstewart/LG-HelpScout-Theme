@@ -136,7 +136,17 @@ button:active {
   
 
 .category-list {
+  
   .category {
+    text-align: center;
+    display: inline-table;
+    width: 100%;
+    border: none;
+    margin: 0 .8% 20px .8%;
+    padding: 1.5rem 1em;
+    cursor: pointer;
+    vertical-align: top;
+
     p {
       color: var(--color-text);
       margin: 9px 0;
@@ -158,9 +168,6 @@ button:active {
     background-color: var(--color-lightblue-gradient);
     border-radius: 8px;
     margin: 4px;
-    display: flex;
-    width: 45%;
-    height: auto;
 
     &:active,
     &:focus,
