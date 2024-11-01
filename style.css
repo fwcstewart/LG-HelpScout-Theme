@@ -85,7 +85,7 @@ div#docs-search-background {
   display: grid;
   grid-template-areas: "title image" "search image";
   column-gap: 26%;
-  background-image: URL("https://app.lyfeguard.com/themes/lyfeguard/assets/dist/images/welcome.png");
+  background-image: URL("");
 
   h1 {
     grid-area: title;
